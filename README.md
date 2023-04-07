@@ -1,3 +1,3 @@
 # hadron_schematic_assistant
 
-A project to extend to the Hadron prooject
+A project to extend to the Hadron project
