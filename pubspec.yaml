@@ -101,15 +101,18 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Audiowide
-      fonts:
-        - asset: fonts/Schyler-Regular.ttf
+    # - family: Audiowide
+    #   fonts:
+    #     - asset: fonts/Schyler-Regular.ttf
     - family: AdventPro
       fonts:
         - asset: fonts/advent-Re.otf
+    - family: NovaFlat
+      fonts:
+        - asset: fonts/NovaFlat.ttf
     - family: Zrnic
       fonts: 
-        - asset: fonts/zrnic_.ttf
+        - asset: fonts/zrnic__.ttf
 
          
   # For details regarding fonts from package dependencies,
