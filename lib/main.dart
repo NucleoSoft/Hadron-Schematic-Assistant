@@ -4,7 +4,6 @@ import 'package:hadron_schematic_assistant/views/login.dart';
 import 'package:hadron_schematic_assistant/views/signup.dart';
 import 'package:hadron_schematic_assistant/views/home.dart';
 import 'package:hadron_schematic_assistant/views/splashscreen.dart';
-import 'package:http/http.dart' as http;
 
 void main() {
   runApp(GetMaterialApp(

@@ -19,7 +19,7 @@ class _SignupState extends State<Signup> {
           IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () {
-              Get.offAll(Login());
+              Get.offAll(const Login());
             },
           ),
         ],
