@@ -4,7 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:hadron_schematic_assistant/swatches/palette.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+  const SplashScreen({Key? key}) : super(key: key);
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
@@ -12,8 +12,12 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   Future<String> _loadData() async {
-    await Future.delayed(const Duration(seconds: 5));
+    await Future.delayed(const Duration(seconds: 15));
     return 'Done!';
+  }
+
+    void _navigateToLogin() {
+    Get.toNamed('/login');
   }
 
   @override
@@ -22,7 +26,9 @@ class _SplashScreenState extends State<SplashScreen> {
         future: _loadData(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
-            Get.toNamed('/login');
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            _navigateToLogin();
+          });            
             return Container();
           } else {
             return Scaffold(
@@ -69,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         ),
                       ),
                       Image.asset('assets/images/Logo.png',
-                          width: 25, height: 25),
+                          width: 30, height: 30),
                     ],
                   ),
                 ),
@@ -120,7 +126,8 @@ class _SplashScreenState extends State<SplashScreen> {
                         ),
                       ),
                       const SizedBox(height: 30),
-                      Lottie.asset('assets/images/WebLoader.json'),
+                      Lottie.asset('assets/images/WebLoader.json', 
+                      width: 50.0, height: 50.0, repeat: true),
                     ],
                   ),
                 ),

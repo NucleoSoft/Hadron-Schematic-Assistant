@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578912795678",
+    "project_id": "visuo-f0ddc",
+    "storage_bucket": "visuo-f0ddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578912795678:android:7f0a5568e8af3af735420f",
+        "android_client_info": {
+          "package_name": "com.example.hadron_schematic_assistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578912795678-75sap4g43286rfp0038c0s0k150tsitm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGGePU99_sju066HvlPICnavBFxH4VYas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578912795678-75sap4g43286rfp0038c0s0k150tsitm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

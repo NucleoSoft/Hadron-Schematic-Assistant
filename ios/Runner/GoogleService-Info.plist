@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>578912795678-9p2m2rhb8vamoi8j3p7gv2vf94h2pmur.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578912795678-9p2m2rhb8vamoi8j3p7gv2vf94h2pmur</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_ehew5It99n83k9ExpODFO8lV7g3TZi8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578912795678</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.hadronSchematicAssistant</string>
+	<key>PROJECT_ID</key>
+	<string>visuo-f0ddc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>visuo-f0ddc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578912795678:ios:196aebf38e06a21e35420f</string>
+</dict>
+</plist>
